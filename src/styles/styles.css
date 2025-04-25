@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Luckiest+Guy&display=swap');
+
+body {
+  margin: 20px;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background: linear-gradient(45deg, #ff5c62, #64ff64, #688bff, #fffd6f, #ff6bdf);
+  background-size: 800% 800%;
+  animation: rainbowFlow 80s infinite;
+  color: #222;
+}
+
+@keyframes rainbowFlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.game-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  background: rgba(206, 255, 161, 0.836);
+  border-radius: 2rem;
+  box-shadow: 0 20px 15px rgba(0,0,0,0.5);
+}
+
+.typing-box {
+  background: #fff2f9;
+  justify-items: center;
+  border: 5px groove #61cf4b;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  color: #ff1493;
+  font-family: Verdana, Tahoma, sans-serif;
+  margin-top: 1rem;
+  word-break: break-word;
+}
+
+.timer {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #c2003a;
+  background-color: rgb(159, 233, 85);
+  margin: 1rem 0;
+  border-radius: 40px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #549eff;
+  border: none;
+  border-radius: 0.8rem;
+  color: white;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+textarea{
+  width: 300px;
+}

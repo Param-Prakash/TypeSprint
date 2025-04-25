@@ -1,0 +1,18 @@
+.runner-window {
+    position: relative;
+    height: 280px;
+    image-rendering: auto;
+    background: url('/src/assets/runner/bg.jpg') center/cover no-repeat;
+    border-radius: 1rem;
+    margin: 2rem 0;
+    overflow: hidden;
+  }
+  
+  .runner-sprite {
+    position: absolute;
+    bottom: 0;
+    left: 80px;
+    height: 150px;
+    transition: left 0.1s linear;
+  }
+  
