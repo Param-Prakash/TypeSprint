@@ -37,7 +37,7 @@ const AnimatedRunner = ({ isRunning, progress }) => {
   return (
     <div className="runner-window" ref={containerRef}>
       <img
-        src={`/src/assets/runner/frame${frame}.png`}
+        src={`/public/assets/runner/frame${frame}.png`}
         alt="runner"
         className="runner-sprite"
         style={{ left: `${runnerPosition}px` }}

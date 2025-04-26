@@ -2,7 +2,7 @@
     position: relative;
     height: 280px;
     image-rendering: auto;
-    background: url('/src/assets/runner/bg.jpg') center/cover no-repeat;
+    background: url('/public/assets/runner/bg.jpg') center/cover no-repeat;
     border-radius: 1rem;
     margin: 2rem 0;
     overflow: hidden;

@@ -3,9 +3,9 @@ import React, { useState, useEffect, useRef } from 'react';
 import AnimatedRunner from './AnimatedRunner';
 import useSound from './useSound';
 import { sentences } from '../data/sentences';
-import startSound from '../assets/runner/start.mp3';
-import runLoop from '../assets/runner/run-loop.mp3';
-import applause from '../assets/runner/applause.mp3';
+import startSound from '/public/assets/runner/start.mp3';
+import runLoop from '/public/assets/runner/run-loop.mp3';
+import applause from '/public/assets/runner/applause.mp3';
 
 
 const Game = () => {
